@@ -1,0 +1,218 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fe1b12;
+  }
+
+  
+
+  .contenedor {
+    max-width: 900px;
+    height: 850px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ebe5e5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 2em;
+  }
+
+  h1 {
+    padding-top: 3%;
+    margin-bottom: 3%;
+    color: #004adc;
+    font-size: 75px;
+    font-weight: bold;
+    -webkit-text-fill-color: #fdb400 ;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: #3c63b0 solid ;
+    text-shadow: 
+        -3px -3px 4px rgba(0, 0, 0, 1),  
+         3px -3px 4px rgba(0, 0, 0, 1),  
+        -3px  3px 4px rgba(0, 0, 0, 1),  
+         3px  3px 4px rgba(0, 0, 0, 1);
+    
+
+  }
+
+  input[type="text"] {
+    border: solid black 2px;
+    padding: 10px;
+    font-size: 16px;
+    width: 30%;
+    top: 1px;
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #201d1d;
+    border: black solid 2px;
+    cursor: pointer;
+  }
+
+
+  img{
+    justify-content: center;
+    align-self: center;
+    align-content: center; 
+    width: 300px;
+    height: 300px;
+    padding-top: 30%;
+  }
+
+
+nav{
+  
+  background: #ffb000; 
+  box-shadow: 3px 5px 15px 5px rgb(19, 18, 18);
+  border-radius: 1em;
+}
+
+#contenedorDeContenedores{
+  /* background: aqua; */
+  display: flex;
+  height: 720px;
+  margin-top: 10px;
+}
+
+#fotito-nombre{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  /* justify-content: center;  */
+
+}
+
+#ladoDerecho{
+  /* background: aquamarine; */
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#contenedorStats{
+  background: #40acb9;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  border-radius: 6em;
+  box-shadow: 3px 5px 15px 5px rgb(19, 18, 18);
+
+}
+
+#tipo-debilidades{
+  /* background: rgb(252, 124, 124); */
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+#altura-peso{
+  /* background: grey; */
+  height: 100%;
+  width: 50%;
+
+}
+
+
+#altura{
+  /* background: #0293cc; */
+  height: 50%;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#peso{
+  /* background: rgb(248, 7, 208); */
+ height: 50%;
+ width: 100%;
+ justify-content: center;
+ display: flex;
+ flex-direction: column;
+}
+
+#cat-hab{
+/* background: gold; */
+height: 100%;
+width: 50%;
+
+}
+
+#categoria{
+  /* background: #3225ec; */
+  height: 50%;
+ width: 100%;
+ justify-content: center;
+ display: flex;
+ flex-direction: column;
+
+}
+
+#habilidades{
+  /* background: rgb(16, 221, 16); */
+  height: 50%;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#tipo{
+  background:#295c95;
+  height: 50%;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  margin-top: 2%;
+  margin-right: 3%;
+  border-radius: 5em;
+  border: solid #020066 2px;
+  box-shadow: 3px 5px 15px 5px rgb(19, 18, 18);
+  
+}
+
+#debilidad{
+  /* background: rgb(235, 140, 32); */
+  height: 50%;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+
+}
+
+p{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+#botonBuscar{
+  border-radius: 5em;
+  margin-bottom: 3%;
+}
+
+#pokemonBuscar{
+  border-radius: 5em;
+}
+ .blanco{
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  -webkit-text-fill-color: #ffffff ; /* Hace que el color del texto sea transparente */
+  -webkit-text-stroke-width: 1.3px; /* Ancho del borde */
+  -webkit-text-stroke-color: black solid ;
+ }
